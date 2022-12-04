@@ -1,0 +1,33 @@
+html {
+    background: black url(mvvv.jpg) center center no-repeat; background-size: cover;
+    color: rgb(255, 183, 0);
+}
+
+body{
+    display: grid;
+    place-items: center;
+    margin: 0;
+    font-family: Inter, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+.Container{ 
+    width: 90%;
+    margin: 2vh auto;
+    background: rgba(79,109,245,0.8);
+    border-radius: 2rem;
+    font-size: clamp(1rem,2vw,2rem);
+    line-height: 1.5em;
+}
+header{ }
+.Avatar {display: block; float: left; width:112px; height: auto; margin: 0 1em 0 0; border-radius: 50%; }
+.Avatar { width: clamp(130px, 14vw, 12rem);}
+.TitlulPaginii { display: block; margin:0; font-size: clam(2rem, 6vw, 4rem);line-height: 1em; }
+main { clear: both;}
+.ListaLinkuri { display:block; margin: 0; padding: 0;}
+.ListaItem { display:block; margin: 0; padding: 0;}
+.ListaLink { display: block; padding: 0.5em; color:  rgb(251, 0, 184); text-decoration: none; }
+.ListaLink:hover { color: black;}
+.ListaTitlu, .ListaText { display:block; margin: 0; padding: 0; font-size: 1em; line-height: 1.5em;}
+.ListaText { white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
